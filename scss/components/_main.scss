@@ -1,0 +1,117 @@
+main {
+    @extend %flex-center;
+	flex-direction: column;
+	background-image: url(../img/body2.png);
+	background-size: 50%;
+    .hero {
+        margin-left: 20px;
+        margin-right: 20px;
+        .carousel {
+            width: 98.8vw;
+            height: 500px;
+            
+            div {
+                div {
+                    .d-block {
+                        height: 500px;
+                        width: 98.8vw;
+                    }
+                    div {
+                        text-align: center;
+                        h5 {
+                            text-align: center;
+                            font-size: 40px;
+                        }
+                        p {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .carousel-control-prev {
+                background-color: #46464744;
+                box-sizing: content-box;
+            }
+            .carousel-control-next {
+                background-color: #46464744;
+                box-sizing: content-box;
+            }
+        }
+    }
+    .tienda {
+        background-color: rgba(250, 250, 250, 0.87);
+        background-size: cover;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        margin-bottom: 20px;
+        h2 {
+            font-size: 30px;
+            text-decoration: black;
+            padding-left: 3vw;
+            margin-top: 10px;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            p {
+                font-size: 15px;
+            }
+            select {
+                margin-left: 10px;
+                margin-right: 3vw;
+                margin-bottom: 15px;
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+        .tarjetas {
+            @include flex (flex, center, row, center, wrap);
+            box-sizing: content-box;
+            text-align: center;
+            .tarjeta {
+                background-color: rgb(255, 255, 255);
+                width: 250px;
+                height: 370px;
+                border-color: black;
+                border-width: 5px;
+                border-style: solid;
+                @include flex (flex, space-around, column, center, nowrap);
+                box-shadow: none;
+                border-radius: 0px;
+                border:2px solid rgb(162, 172, 202);
+                transition: all 0.5s;
+                margin: 10px;
+                &:hover {
+                    box-shadow: $color-shadow;
+                }
+                img {
+                    width: 100%;
+                    height: 80%;
+                    box-sizing:unset;
+                }
+                h3 {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    font-family: 'Roboto', sans-serif;
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    background-color:rgb(162, 172, 202);
+                    color: rgb(255, 255, 255);
+                    padding: 2px;
+                    border: 2px solid;
+                    border-color:rgb(162, 172, 202);
+                    border-radius: 0px;
+                    width: 250px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

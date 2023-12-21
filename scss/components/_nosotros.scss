@@ -1,0 +1,24 @@
+main {
+    .nosotros {
+        @extend %flex-center;
+        flex-direction: column;
+        background-color: rgba(148, 143, 190, 0.705);
+        width: 80vw;
+        height: 400px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        h3 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-family: cursive;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 10px;
+            font-family: cursive;
+            width: 40vw;
+        }
+    }
+}

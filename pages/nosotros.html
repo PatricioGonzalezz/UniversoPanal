@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="../css/style.css">
-    <link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-			crossorigin="anonymous" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>universopanal</title>
+	<!--<link rel="stylesheet" href="../css/style.css" />-->
+	<link rel="stylesheet" href="../css/estilos.css" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<meta name="description" content="Somos Universo Pañal, compra pañales, ropa, juguetes, todo para tu bebe y niños">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:type" content="">
+	<meta property="og:title" content="">
+	<meta property="og:url" content="">
+	<meta property="og:image" content="">
+	<title>universopanal</title>
 </head>
+
 <body>
-    <header>
-		<nav class="navbar bg-body-tertiary fixed-top" id="nava">
+	<header>
+		<nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg" id="nava">
 			<div class="container-fluid">
 				<a id="logo" class="navbar-brand" href="../index.html">Universo Pañal</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -23,7 +29,7 @@
 				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
 					aria-labelledby="offcanvasNavbarLabel">
 					<div class="offcanvas-header">
-						<a class="nav-link" href="../pages/ingreso.html"><img src="../img/usuario.png" alt=""></a>
+						<a class="nav-link" href="../pages/ingreso.html"><img src="../img/usuario.png" alt="" /></a>
 						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 					</div>
 					<div class="offcanvas-body">
@@ -37,49 +43,59 @@
 							<li class="nav-item">
 								<a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="../pages/contacto.html">Contacto</a>
+							<li class="nav-item ocultar">
+								<a class="nav-link" href="../pages/ingreso.html">Ingresar</a>
 							</li>
 						</ul>
-						<form class="d-flex mt-3" role="search">
-							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="btn btn-outline-success" type="submit">Search</button>
+						<form class="d-flex" role="search">
+							<input class="form-control me-2" type="Buscar" placeholder="Search" aria-label="Search" />
+							<button class="btn btn-outline-primary" type="submit">
+								Buscar
+							</button>
 						</form>
 					</div>
 				</div>
 			</div>
 		</nav>
-
 	</header>
-    <main>
-        
-    </main>
-    
-    <footer id="pie">
-        <ul>
-            <h3>Dudas</h3>
-            <li>¿Como comprar?</li>
-            <li>Medios de pago</li>
-            <li>Devoluciones</li>
-            <li>Zonas de entrega</li>
-        </ul>
-        <div>
-            <h3>Seguinos en</h3>
-            <a href=""><img src="../img/facebook.png" alt=""></a>
-            <a href=""><img src="../img/instagram.png" alt=""></a>
-        </div>
-        <div>
-            <h3>¿Donde estamos?</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.4991072415264!2d-68.
+	<main>
+		<div class="nosotros">
+			<h3>Somos Universo Pañal</h3>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Maiores, quas. Deserunt minima rem dolorem ipsum.
+				Perferendis autem beatae eligendi explicabo molestiae alias
+				soluta praesentium. Laudantium, voluptas non. Culpa, illo?
+				Aliquam.
+			</p>
+		</div>
+	</main>
+
+	<footer id="pie">
+		<ul>
+			<h3>Dudas</h3>
+			<li>¿Como comprar?</li>
+			<li>Medios de pago</li>
+			<li>Devoluciones</li>
+			<li>Zonas de entrega</li>
+		</ul>
+		<div>
+			<h3>Seguinos en</h3>
+			<a href=""><img src="../img/facebook.png" alt="" /></a>
+			<a href=""><img src="../img/instagram.png" alt="" /></a>
+		</div>
+		<div>
+			<h3>¿Donde estamos?</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.4991072415264!2d-68.
             59597672522386!3d-31.510449100803385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96814169
             a0226505%3A0x7f40c68b7763990e!2sMancini%20Nte.%2032%20norte%2C%20J5413%20Chimbas%2C%20San%20Juan!5e
-            0!3m2!1ses-419!2sar!4v1699562512995!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" 
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-    </footer>
-    <script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-			crossorigin="anonymous"></script>
+            0!3m2!1ses-419!2sar!4v1699562512995!5m2!1ses-419!2sar" width="600" height="450" style="border: 0"
+				allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

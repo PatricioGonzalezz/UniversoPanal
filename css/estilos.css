@@ -1,0 +1,355 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  background-image: url(../img/body.jpg);
+  background-size: 40%; }
+
+header #nava div div div form, main, main .nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70px;
+  background-image: url(../../img/body.jpg); }
+  header #nava {
+    padding: 0;
+    margin: 0;
+    background-color: #c8c3f3; }
+    header #nava div {
+      background-color: #c8c3f3; }
+      header #nava div #logo {
+        font-size: 40px;
+        color: #0d142b;
+        font-family: cursive; }
+      header #nava div button {
+        border-style: solid;
+        border-width: 1px;
+        color: #0d142b; }
+      header #nava div div div a {
+        opacity: 1;
+        color: #0d142b;
+        font-family: cursive; }
+      header #nava div div div button {
+        font-size: 20px; }
+      header #nava div div div ul li {
+        font-size: 20px; }
+        header #nava div div div ul li a {
+          opacity: 1;
+          color: #0d142b;
+          font-family: cursive; }
+
+main {
+  flex-direction: column;
+  background-image: url(../img/body2.png);
+  background-size: 50%; }
+  main .hero {
+    margin-left: 20px;
+    margin-right: 20px; }
+    main .hero .carousel {
+      width: 98.8vw;
+      height: 500px; }
+      main .hero .carousel div div .d-block {
+        height: 500px;
+        width: 98.8vw; }
+      main .hero .carousel div div div {
+        text-align: center; }
+        main .hero .carousel div div div h5 {
+          text-align: center;
+          font-size: 40px; }
+        main .hero .carousel div div div p {
+          font-size: 20px; }
+      main .hero .carousel .carousel-control-prev {
+        background-color: #46464744;
+        box-sizing: content-box; }
+      main .hero .carousel .carousel-control-next {
+        background-color: #46464744;
+        box-sizing: content-box; }
+  main .tienda {
+    background-color: rgba(250, 250, 250, 0.87);
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-bottom: 20px; }
+    main .tienda h2 {
+      font-size: 30px;
+      text-decoration: black;
+      padding-left: 3vw;
+      margin-top: 10px; }
+    main .tienda div {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+      main .tienda div p {
+        font-size: 15px; }
+      main .tienda div select {
+        margin-left: 10px;
+        margin-right: 3vw;
+        margin-bottom: 15px;
+        font-size: 15px;
+        text-align: left; }
+    main .tienda .tarjetas {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      box-sizing: content-box;
+      text-align: center; }
+      main .tienda .tarjetas .tarjeta {
+        background-color: white;
+        width: 250px;
+        height: 370px;
+        border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        box-shadow: none;
+        border-radius: 0px;
+        border: 2px solid #a2acca;
+        transition: all 0.5s;
+        margin: 10px; }
+        main .tienda .tarjetas .tarjeta:hover {
+          box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px, rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px; }
+        main .tienda .tarjetas .tarjeta img {
+          width: 100%;
+          height: 80%;
+          box-sizing: unset; }
+        main .tienda .tarjetas .tarjeta h3 {
+          font-size: 16px;
+          margin-bottom: 10px;
+          text-align: center;
+          font-family: 'Roboto', sans-serif; }
+        main .tienda .tarjetas .tarjeta a {
+          text-decoration: none;
+          font-size: 20px;
+          background-color: #a2acca;
+          color: white;
+          padding: 2px;
+          border: 2px solid;
+          border-color: #a2acca;
+          border-radius: 0px;
+          width: 250px;
+          text-align: center; }
+
+footer {
+  background-color: #b9b1ae91;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px; }
+  footer ul h3 {
+    font-size: 20px; }
+  footer ul li {
+    margin-top: 10px; }
+  footer div h3 {
+    font-size: 20px;
+    margin-bottom: 10px; }
+  footer div a {
+    margin: 10px;
+    margin-top: 10px; }
+  footer div h3 {
+    font-size: 20px; }
+  footer div iframe {
+    height: 100px;
+    width: 100px; }
+
+main #carouselExampleAutoplaying {
+  height: 30vw;
+  width: 100vw; }
+  main #carouselExampleAutoplaying .carousel-inner .carousel-item {
+    display: flex;
+    flex-direction: row; }
+    main #carouselExampleAutoplaying .carousel-inner .carousel-item .tiendaimg {
+      height: 30vw;
+      width: 100vw;
+      size-adjust: 150%; }
+
+main .tienda .nav-tabs {
+  margin-top: 15px; }
+  main .tienda .nav-tabs li #filtros {
+    border-style: none;
+    border-width: 0px; }
+
+main .tienda .tarjetas-grid {
+  display: grid;
+  align-self: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15px; }
+  main .tienda .tarjetas-grid .tarjeta {
+    background-color: white;
+    width: 250px;
+    height: 370px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 2px solid #a2acca;
+    transition: all 0.5s;
+    margin: 10px; }
+    main .tienda .tarjetas-grid .tarjeta:hover {
+      box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px, rgba(255, 255, 255, 0.5) -8px -8px 15px, rgba(0, 0, 0, 0.1) 10px 10px 10px; }
+    main .tienda .tarjetas-grid .tarjeta img {
+      width: 100%;
+      height: 80%;
+      box-sizing: unset; }
+    main .tienda .tarjetas-grid .tarjeta h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif; }
+    main .tienda .tarjetas-grid .tarjeta a {
+      text-decoration: none;
+      font-size: 20px;
+      background-color: #a2acca;
+      color: white;
+      padding: 2px;
+      border: 2px solid;
+      border-color: #a2acca;
+      border-radius: 0px;
+      width: 250px;
+      text-align: center; }
+
+main .tienda .pagination {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.heroingreso {
+  background-color: rgba(148, 143, 190, 0.705);
+  width: 80vw;
+  height: 400px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .heroingreso h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .heroingreso h3 {
+    font-size: 20px; }
+  .heroingreso form {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .heroingreso h3 {
+    font-size: 20px; }
+  .heroingreso form {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .heroingreso a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #7884a8;
+    color: white;
+    padding: 2px;
+    border: 2px solid;
+    border-color: #a2acca;
+    border-radius: 0px;
+    width: 250px;
+    text-align: center; }
+  .heroingreso form {
+    margin-bottom: 10px; }
+    .heroingreso form input {
+      text-decoration: none;
+      font-size: 14px;
+      background-color: white;
+      text-decoration: black;
+      padding: 2px;
+      border: 2px solid #a2acca;
+      border-color: #a2acca;
+      border-radius: 0px;
+      width: 250px;
+      text-align: center; }
+
+main .nosotros {
+  flex-direction: column;
+  background-color: rgba(148, 143, 190, 0.705);
+  width: 80vw;
+  height: 400px;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+  main .nosotros h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: cursive; }
+  main .nosotros p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    width: 40vw; }
+
+@media (min-width: 570px) {
+  body main .tienda .tarjetas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-template-rows: auto; } }
+
+@media (min-width: 870px) {
+  body main .tienda .tarjetas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-template-rows: auto; } }
+
+@media (min-width: 1100px) {
+  body main .tienda .tarjetas-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-template-rows: auto auto; } }
+
+@media screen and (min-width: 870px) and (max-width: 1100px) {
+  #smtarjet {
+    display: flex !important; } }
+
+@media screen and (max-width: 650px) {
+  main .hero .carousel {
+    width: 98.8vw;
+    height: 75vw; }
+  main .hero .carousel div div .d-block {
+    height: 75vw;
+    width: 98.8vw; }
+  main .hero #carouselExampleCaptions .carousel-inner div div h5 {
+    font-size: 15px !important; }
+  main .hero #carouselExampleCaptions .carousel-inner div div p {
+    font-size: 10px !important; }
+  header nav div #logo {
+    font-size: 30px; }
+  header {
+    height: 50px; }
+  main div div div .tiendaimg {
+    height: 40vw;
+    size-adjust: 150%; }
+  main #carouselExampleAutoplaying {
+    height: 40vw; }
+  main .tienda h2 {
+    font-size: 20px; }
+  main .tienda p {
+    font-size: 14px; } }
+
+@media screen and (max-width: 995px) {
+  .ocultar {
+    display: none; } }

@@ -1,0 +1,53 @@
+
+
+header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 70px;
+        background-image:url(../../img/body.jpg);
+        #nava {
+            padding: 0;
+            margin: 0;
+            background-color: $color-principal;
+            div {
+                background-color: $color-principal;
+                #logo {
+                    font-size: 40px;
+                    color: #0d142b;
+                    font-family: cursive;
+                }
+                button {
+                    border-style: solid;
+                    border-width: 1px;
+                    color:  #0d142b;
+                }
+                div {
+                    div {
+                        a {
+                            opacity: 1;
+                            color: #0d142b;
+                            font-family: cursive;
+                        }
+                        button {
+                            font-size: 20px;
+                        }
+                    }
+                    div {
+                        ul {
+                            li {
+                                a {	
+                                    opacity: 1;
+                                    color: #0d142b;
+                                    font-family: cursive;}
+                                    font-size: 20px;
+                            }
+                        }
+                        form {
+                            @extend %flex-center;
+                        }
+                    }
+                }
+            }
+        }
+}

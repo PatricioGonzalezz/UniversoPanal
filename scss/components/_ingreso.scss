@@ -1,0 +1,59 @@
+.heroingreso {
+    background-color: rgba(148, 143, 190, 0.705);
+	width: 80vw;
+	height: 400px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    h2 {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    form {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    form {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    a {
+        margin: 10px;
+        text-decoration: none;
+                    font-size: 14px;
+                    background-color:rgb(120, 132, 168);
+                    color: rgb(255, 255, 255);
+                    padding: 2px;
+                    border: 2px solid;
+                    border-color:rgb(162, 172, 202);
+                    border-radius: 0px;
+                    width: 250px;
+                    text-align: center;
+    }
+    form {
+        margin-bottom: 10px;
+        input {
+            text-decoration: none;
+                    font-size: 14px;
+                    background-color:rgb(255, 255, 255);
+                    text-decoration: black;
+                    padding: 2px;
+                    border: 2px solid rgb(162, 172, 202);
+                    border-color:rgb(162, 172, 202);
+                    border-radius: 0px;
+                    width: 250px;
+                    text-align: center;
+        }
+    }
+}
