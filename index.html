@@ -3,7 +3,6 @@
 
 <head>
 	<!--<link rel="stylesheet" href="./css/style.css" />-->
-	<link rel="stylesheet" href="./css/estilos.css">
 	<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 	<meta name="description" content="Somos Universo Pañal, compra pañales, ropa, juguetes, todo para tu bebe y niños">
 	<meta charset="UTF-8" />
@@ -15,16 +14,17 @@
 	<meta property="og:description" content="">
 	<!--El titulo debe tener entre 35 y 65 caracteres-->
 	<title>UniversoPanal</title>
-	
+
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+	<link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
 	<header>
 		<nav class="navbar fixed-top navbar-expand-lg" id="nava">
 			<div class="container-fluid">
-				<a id="logo" class="navbar-brand" href="./index.html">Universo Pañal</a>
+				<h1 class="navbar-brand" id="logo"><a class="navbar-brand" href="./index.html">Universo Pañal</a></h1>
 				<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
 					data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
 				<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
 					aria-labelledby="offcanvasNavbarLabel">
 					<div class="offcanvas-header">
-						<a class="nav-link" href="./pages/ingreso.html"><img src="./img/usuario.png" alt=""></a>
+						<a class="nav-link" href="./pages/ingreso.html"><img src="./img/usuario.png" alt="iconousuario"></a>
 						<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 					</div>
 					<div class="offcanvas-body">
@@ -46,12 +46,15 @@
 							<li class="nav-item">
 								<a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./pages/dudas.html">Dudas</a>
+							</li>
 							<li class="nav-item ocultar">
 								<a class="nav-link" href="./pages/ingreso.html">Ingresar</a>
 							</li>
 						</ul>
 						<form class="d-flex" role="search">
-							<input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="search">
+							<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
 							<button class="btn btn-outline-primary" type="submit">Buscar</button>
 						</form>
 					</div>
@@ -73,32 +76,28 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./img/8683985.jpg" class="d-block w-100" alt="..." />
-						<div class="carousel-caption d-none d-md-block">
+						<img src="./img/8683985.jpg" class="d-block" alt="..." />
+						<div class="carousel-caption d-md-block">
 							<h5>¡Bienvenidos a Universo Pañal!</h5>
 							<p>
-								Some representative placeholder content for
-								the first slide.
+								Somos una tienda online, en la que podes encontrar todo lo que necesitas para tu
+								bebe. Tambien contamos con una linea de juguetes y accesorios.
 							</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="./img/213163971_l_normal_none.png" class="d-block w-100" alt="..." />
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Promociones</h5>
+						<img src="./img/213163971_l_normal_none.png" class="d-block" alt="..." />
+						<div class="carousel-caption d-md-block">
 							<p>
-								Some representative placeholder content for
-								the second slide.
+								Promociones validas desde el 1/1/24, hasta el 1/2/24
 							</p>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="./img/beb2.png" class="d-block w-100" alt="..." />
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Descuentos</h5>
+						<img src="./img/beb2.png" class="d-block" alt="imagendebackground" />
+						<div class="carousel-caption d-md-block">
 							<p>
-								Some representative placeholder content for
-								the third slide.
+								Descuentos validos desde el 1/1/24, hasta el 1/2/24
 							</p>
 						</div>
 					</div>
@@ -108,7 +107,8 @@
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
@@ -154,13 +154,13 @@
 					<h3>$29.999</h3>
 					<a href="">Agregar</a>
 				</div>
-				<div class="tarjeta" >
+				<div class="tarjeta">
 					<img src="./img/panalhuggies.png" alt="" />
 					<h3>Pañal Huggies M/48U</h3>
 					<h3>$29.999</h3>
 					<a href="">Agregar</a>
 				</div>
-				<div class="tarjeta" >
+				<div class="tarjeta">
 					<img src="./img/panalhuggies.png" alt="" />
 					<h3>Pañal Huggies M/48U</h3>
 					<h3>$29.999</h3>
@@ -212,10 +212,11 @@
 			<li>Devoluciones</li>
 			<li>Zonas de entrega</li>
 		</ul>
-		<div>
+		<div class="redes">
 			<h3>Seguinos en</h3>
-			<a href=""><img src="./img/facebook.png" alt="" /></a>
-			<a href=""><img src="./img/instagram.png" alt="" /></a>
+			<a href=""><img src="./img/facebook.png" alt="iconofacebook" /></a>
+			<a href=""><img src="./img/instagram.png" alt="iconoinstagram" /></a>
+			<a href=""><img src="./img/whatsapp.png" alt="iconowhatsapp"></a>
 		</div>
 		<div>
 			<h3>¿Donde estamos?</h3>

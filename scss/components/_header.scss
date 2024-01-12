@@ -4,18 +4,21 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 70px;
+        height: 65px;
         background-image:url(../../img/body.jpg);
         #nava {
             padding: 0;
             margin: 0;
             background-color: $color-principal;
+            height: 65px;
             div {
                 background-color: $color-principal;
                 #logo {
-                    font-size: 40px;
-                    color: #0d142b;
-                    font-family: cursive;
+                    a {
+                        font-size: 40px;
+                        color: #0d142b;
+                        font-family: cursive;
+                }
                 }
                 button {
                     border-style: solid;
@@ -33,7 +36,7 @@ header {
                             font-size: 20px;
                         }
                     }
-                    div {
+                    .offcanvas-body {
                         ul {
                             li {
                                 a {	

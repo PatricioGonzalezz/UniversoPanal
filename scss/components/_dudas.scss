@@ -1,0 +1,27 @@
+body {
+    main {
+        .dudas {
+            @extend %flex-center;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: $color-tienda;
+            margin: 50px;
+            padding: 30px;
+            .dudasdiv {
+                align-items: center;
+                width: 80vw;
+                h3 {
+                    border-bottom: solid 2px $color-principal;
+                    margin-top: 30px;
+                    text-align: center;
+                }
+                h4{
+                    text-align: start;
+                }
+                p {
+                    text-align: start;
+                }
+            }
+        }
+    }
+}

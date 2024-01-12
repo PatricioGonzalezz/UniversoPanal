@@ -1,15 +1,12 @@
 main {
     #carouselExampleAutoplaying {
-        height: 30vw;
+        height: 40vw;
         width: 100vw;
         .carousel-inner {
             .carousel-item {
-                display: flex;
-                flex-direction: row;
                 .tiendaimg {
-                    height: 30vw;
+                    height: 40vw;
                     width: 100vw;
-                    size-adjust: 150%;
                 }
             }
         }
